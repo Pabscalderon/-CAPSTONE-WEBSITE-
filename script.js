@@ -58,6 +58,13 @@ function getAnswer(question) {
             return `A great way to boost your GPA/Rank is to take college level courses throughtout highschool whether that'd be duel credit or AP is up to the student.`;
         case 'how can i drop a duel credit class':
             return `In order to drop a duel credit lonestar class, you must fill out a schedule change form that must be signed off by a students High School Counselor and Lonestar Counselor`;
+         case 'how can I earn dsg hours' :
+            return `you can earn dsg hours by doing volunteer work within your community
+            some great examples would be helping your local food bank or to help organize school 
+            events. Some clubs could also offer their members a chance to earn dsg hours as well, such as Key Club.`
+        case 'where can I pay my club fees?':
+            return `You can make online payments throught Wunsche Rev Track, this website can also allow you to make payments for necessary senior equipment or other payments for other honor societies.`
+            
         default:
             return 'Sorry, I couldn\'t find an answer to your question. Please contact support for further assistance.';
     }
